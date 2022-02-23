@@ -1,0 +1,58 @@
+.AppPredict {
+  text-align: center;
+  
+  background-image: url("./components/formulabackground.jpg");
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 3vmin;
+  pointer-events: none;
+  position:absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.App-header {
+  background-color: #f800ba;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.csvForm {
+  /* background-color: rgba(3, 59, 33, 0.5); */
+  position: absolute;
+  top: 55%;  
+  left: 50%; 
+  transform: translate(-55%, -50%);
+}
+
+.csvField{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.infoText{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: x-large;
+  position: absolute;
+  top: 48%;  
+  left: 50%; 
+  transform: translate(-45%, -50%);
+}
+
+.outputField {
+  background-color: rgb(255, 255, 255);
+
+  /* background-color: rgba(3, 59, 33, 0.5); */
+  position: absolute;
+  bottom: 0%;  
+  left: 0%; 
+  transform: translate( 0%, 0%);
+}
